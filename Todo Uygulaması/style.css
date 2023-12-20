@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(193, 91, 91);
+}
+
+.baslik{
+  color:rgb(233, 231, 231);
+}
+
+.container{
+  max-width: 400px;
+}
+
+::placeholder{
+  color: white !important;
+}
+
+input[type=text],
+input[type=text]:focus{
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos li{
+  background: rgb(213, 123, 123);
+  color: white;
+  border: none;
+  
+}
+.delete{
+  cursor: pointer;
+  color: rgb(254, 191, 191)
+}
+.filtered{
+  display: none !important;
+}
