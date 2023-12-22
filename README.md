@@ -1,6 +1,6 @@
-##Basic Javascript Project
+## Basic Javascript Project
 
-###İçerik
+### İçerik
 
 1-Ankat Uygulaması <br>
 2-Matematik Quiz Uygulaması <br>
