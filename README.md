@@ -1,7 +1,9 @@
 ##Basic Javascript Project
 
-1-Ankat Uygulaması
-2-Matematik Quiz Uygulaması
-3-Saat Uygulaması
-4-Todo Uygulaması
-5-Slider Uygulaması
+###İçerik
+
+1-Ankat Uygulaması <br>
+2-Matematik Quiz Uygulaması <br>
+3-Saat Uygulaması <br>
+4-Todo Uygulaması <br>
+5-Slider Uygulaması <br>
