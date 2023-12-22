@@ -7,3 +7,4 @@
 4-Todo Uygulaması <br>
 5-Slider Uygulaması <br>
 6-Loading Bar Uygulaması <br>
+7-SideBar Projesi <br>
