@@ -1,8 +1,8 @@
 ## Basic Javascript Project
 
 ### İçerik
-1-Anket Uygulaması <br>
-2-Matematik Quiz Uygulaması <br>
+1-Anket Test <br>
+2-Matematik Quiz Test <br>
 3-Saat Uygulaması <br>
 4-Todo Uygulaması <br>
 5-Slider Uygulaması <br>
