@@ -8,3 +8,4 @@
 5-Slider Uygulaması <br>
 6-Loading Bar Uygulaması <br>
 7-SideBar Projesi <br>
+8-Karakter Sayacı Uygulaması <br>
