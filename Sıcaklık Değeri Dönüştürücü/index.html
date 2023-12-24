@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sıcaklık DÖnüştürücü</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Hava Sıcaklığı Çevirici</h1>
+    <div class="heatdiv">
+      <label>Celcius:</label>
+      <input onchange="calculateTemp(event)" type="number" name="celsius" id="celsius" placeholder="Hava Kaç Derece ?">
+    </div>
+    <div class="heatdiv">
+      <label>Fahrenheit:</label>
+      <input onchange="calculateTemp(event)" type="number" name="fahrenheit" id="fahrenheit" placeholder="Hava Kaç Derece ?">
+    </div>
+    <div class="heatdiv">
+      <label>Kelvin:</label>
+      <input onchange="calculateTemp(event)" type="number" name="kelvin" id="kelvin" placeholder="Hava Kaç Derece ?">
+    </div>
+  </div>
+  
+
+
+  <script src="main.js"></script>
+</body>
+</html>
