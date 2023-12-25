@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  background: rgb(82, 183, 201);
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(37, 30, 100);
+
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container p{
+  font-size: 20px;
+  padding: 20px 10px;
+  color: white;
+}
+
+.container button{
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  background: rgb(34, 55, 118);
+
+}
