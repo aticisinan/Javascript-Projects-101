@@ -13,3 +13,4 @@
 10-Accordion Arayüz Uygulaması <br>
 11-Sıcaklık Değeri Dönüştürücü <br>
 12-İngilizce Sözlük Projesi <br>
+13-Random Kötü Şaka Uygulaması <br>
