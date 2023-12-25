@@ -12,3 +12,4 @@
 9-Döviz Çevirici Uygulaması <br>
 10-Accordion Arayüz Uygulaması <br>
 11-Sıcaklık Değeri Dönüştürücü <br>
+12-İngilizce Sözlük Projesi <br>
