@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  background: rgb(255, 255, 255);
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+  border-radius: 20px;
+}
+input{
+  width: 80%;
+  padding: 10px;
+  background: lightblue;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 10px 0px 0px 10px;
+}
+button{
+  width: 25%;
+  border-radius: 0 10px 10px 0px;
+  font-size: 15px;
+  border: none;
+  background: blue;
+  color: white ;
+  padding: 10px;
+  cursor: pointer;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  margin-bottom: 20px;
+}
+.temperature{
+  padding: 20px 0px;
+  font-size: 40px;
+  margin-top: 20px 0px;
+}
+.details div{
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 10px;
+}.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
