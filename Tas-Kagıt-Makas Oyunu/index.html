@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taş Kağıt Makas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="gameContainer">
+    <div class="header">
+      <h1>Taş Kağıt Makas Oyunu</h1>
+    </div>
+    <h2>Player1 <span class="choice" id="playerOne"></span> - Skor: <span id="playerOneScore"></span></h2>
+    <div class="playerContainer" id="player">
+      <i class="icon fa-regular fa-hand-back-fist" id="playerRock" title="tas"
+      onclick="select('rock')"></i>
+      <i class="icon fa-regular fa-hand " id="playerHand" title="kagit"
+      onclick="select('paper')"></i>
+      <i class="icon fa-regular fa-hand-scissors" id="playerScissors" title="makas"
+      onclick="select('scissors')"></i>
+    </div>
+
+    <h2>Player2 <span class="choice" id="playerTwo"></span> - Skor: <span id="playerTwoScore"></span></h2>
+    <div class="playerContainer" id="computer">
+      <i class="icon fa-regular fa-hand-back-fist" id="playerTwoRock" title="tas"></i>
+      <i class="icon fa-regular fa-hand " id="playerTwoHand" title="kagit"></i>
+      <i class="icon fa-regular fa-hand-scissors" id="playerTwoScissors" title="makas"></i>
+    </div>
+    <div class="resetContainer">
+      <i class="icon reset fa-solid fa-rotate" title="Sıfırla" onclick="resetAll()"></i>
+    </div>
+    <div class="resultContainer">
+      <h3 class="resultText" id="resultText"></h3>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

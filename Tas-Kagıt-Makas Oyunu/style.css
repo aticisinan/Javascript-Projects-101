@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.gameContainer{
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+  rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header{
+  background: pink;
+  padding: 30px;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  margin: 20px;
+}
+.playerContainer{
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 50px;
+}
+.icon{
+  font-size: 50px;
+}
+
+#player .icon{
+  color: blue;
+}
+
+#computer .icon{
+  color: red;
+}
+.resultContainer{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  padding: 20px 0px;
+}
+.resetContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.selected{
+  color: black !important;
+}

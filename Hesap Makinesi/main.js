@@ -80,3 +80,4 @@ function resetAll(){
   operatorValue = "";
   isWaiting = false;
 }
+
