@@ -66,20 +66,18 @@ function updateScore(playerChoice){
     resultText.textContent = "Berabere";
   }else{
     const choice = choices[playerChoice];
-    console.log(choice);
-    console.log(choice.win.indexOf(computerChoice))
-  if(choice.win.indexOf(computerChoice) === 0){
-    resultText.textContent = "Player 1 Kazandı";
-    playerScoreNumber++;;
-    playerOneScore.textContent = playerScoreNumber;
+    if(choice.win.indexOf(computerChoice) === 0){
+      resultText.textContent = "Player 1 Kazandı";
+      playerScoreNumber++;;
+      playerOneScore.textContent = playerScoreNumber;
     
-  }else{
-    resultText.textContent = "Player 2 Kazandı";
-    computerScoreNumber++;
-    playerTwoScore.textContent = computerScoreNumber;
+    }else{
+      resultText.textContent = "Player 2 Kazandı";
+      computerScoreNumber++;
+      playerTwoScore.textContent = computerScoreNumber;
 
+    }
   }
-}
 }
 
 function checkResult(playerChoice){
