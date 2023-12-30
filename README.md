@@ -1,4 +1,4 @@
-## Basic Javascript Project
+## Basic Javascript Projects
 
 ### İçerik
 1-Anket Test <br>
